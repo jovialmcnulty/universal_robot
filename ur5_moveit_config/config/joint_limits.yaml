@@ -14,8 +14,8 @@ joint_limits:
     max_velocity: 3.15
     has_acceleration_limits: true
     max_acceleration: 3.15
-    #min_position: -2.15
-    #max_position: -0.3
+    min_position: -2.3
+    max_position: -0.3
   elbow_joint:
     has_velocity_limits: true
     max_velocity: 3.15
@@ -26,6 +26,8 @@ joint_limits:
     max_velocity: 2.0 #3.2
     has_acceleration_limits: true
     max_acceleration: 3.2
+    min_position: -2.5
+    max_position: 1.2
   wrist_2_joint:
     has_velocity_limits: true
     max_velocity: 3.2
